@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg"
+        android:orientation="vertical"
+        tools:context=".ItemListActivity">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="44dp"
+                    android:background="@color/colorPrimary">
+        <ImageButton android:layout_width="44dp" android:layout_height="44dp" android:background="@color/colorPrimary"
+                     android:src="@drawable/back" android:id="@+id/back"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="项目信息"
+                  android:textColor="@color/white" android:layout_centerInParent="true" android:textSize="18sp"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="40dp">
+        <EditText android:layout_width="match_parent" android:layout_height="30dp" android:layout_centerVertical="true"
+                  android:background="@drawable/bg_white" android:hint="搜索" android:textSize="11sp"
+                  android:paddingLeft="40dp" android:layout_marginLeft="12dp" android:layout_marginRight="90dp"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:src="@drawable/item_info_search" android:layout_centerVertical="true"
+                   android:layout_marginLeft="25dp"/>
+        <TextView android:layout_width="65dp" android:layout_height="30dp" android:text="搜索" android:gravity="center"
+                  android:layout_centerVertical="true" android:layout_alignParentRight="true" android:textSize="13sp"
+                  android:background="@color/colorPrimary" android:textColor="@color/white"
+                  android:layout_marginRight="12dp"/>
+    </RelativeLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="45dp" android:background="@color/white"
+                  android:orientation="horizontal">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                        android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全部地区"
+                      android:layout_centerInParent="true" android:textSize="13sp" android:textColor="@color/black"
+                      android:alpha="0.7" android:drawableRight="@drawable/item_info_down"
+                      android:drawablePadding="7dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                        android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全部项目"
+                      android:layout_centerInParent="true" android:textSize="13sp" android:textColor="@color/black"
+                      android:alpha="0.7" android:drawableRight="@drawable/item_info_down"
+                      android:drawablePadding="7dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                        android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="全部状态"
+                      android:layout_centerInParent="true" android:textSize="13sp" android:textColor="@color/black"
+                      android:alpha="0.7" android:drawableRight="@drawable/item_info_down"
+                      android:drawablePadding="7dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+            android:overScrollMode="never" android:id="@+id/recyclerView" android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+</LinearLayout>

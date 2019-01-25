@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:background="@color/bg"
+             android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="45dp">
+            <TextView android:id="@+id/year" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_centerVertical="true" android:layout_marginLeft="13dp" android:textSize="13sp"
+                      android:textColor="@color/colorPrimary" android:text="2018年度"
+                      android:drawableRight="@drawable/jian_down" android:drawablePadding="5dp"/>
+            <TextView android:id="@+id/txt_left" android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" android:text="预算合计"
+                      android:layout_centerVertical="true" android:layout_toRightOf="@id/year" android:textSize="12sp"
+                      android:textColor="@color/black" android:alpha="0.5" android:layout_marginLeft="20dp"/>
+            <TextView android:id="@+id/money" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="52.5" android:textColor="@color/orange" android:textSize="15sp"
+                      android:layout_centerVertical="true" android:layout_toRightOf="@id/txt_left"
+                      android:layout_marginLeft="5dp"/>
+            <TextView android:id="@+id/txt_right" android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" android:text="预算合计"
+                      android:layout_centerVertical="true" android:layout_toRightOf="@id/money" android:textSize="12sp"
+                      android:textColor="@color/black" android:alpha="0.5" android:layout_marginLeft="5dp"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:src="@drawable/info3_chart" android:layout_centerVertical="true"
+                       android:layout_alignParentRight="true" android:layout_marginRight="25dp"/>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView" android:layout_width="match_parent" android:overScrollMode="never"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</FrameLayout>

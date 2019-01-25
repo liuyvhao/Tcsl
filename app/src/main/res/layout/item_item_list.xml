@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent" android:layout_height="95dp">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="85dp"
+                    android:layout_centerVertical="true" android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp" android:background="@drawable/bg_white">
+        <com.facebook.drawee.view.SimpleDraweeView
+                app:roundedCornerRadius="2dp" android:id="@+id/img" android:layout_width="62dp"
+                android:layout_height="62dp" android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"/>
+        <TextView android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="铜川耀州区沈家河水库"
+                  android:layout_toRightOf="@id/img" android:textColor="@color/black" android:layout_marginLeft="13dp"
+                  android:layout_marginTop="12dp"/>
+        <TextView android:id="@+id/number" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="HX-105060890905606" android:layout_toRightOf="@id/img" android:layout_marginLeft="13dp"
+                  android:layout_centerVertical="true"/>
+        <TextView android:id="@+id/type" android:layout_width="45dp" android:layout_height="15dp" android:text="水库工程"
+                  android:gravity="center" android:background="@drawable/solid_label"
+                  android:textSize="9sp" android:textColor="@color/colorPrimary" android:layout_toRightOf="@id/img"
+                  android:layout_alignParentBottom="true" android:layout_marginLeft="13dp"
+                  android:layout_marginBottom="12dp"/>
+        <TextView android:id="@+id/status" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:drawableLeft="@drawable/item_list_finsh" android:text="已建成" android:textColor="@color/green"
+                  android:gravity="center_vertical" android:drawablePadding="7dp" android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true" android:layout_marginRight="12dp"/>
+        <TextView android:id="@+id/time" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="2017-10-22~2019-01-18" android:layout_alignParentRight="true"
+                  android:layout_alignParentBottom="true" android:layout_marginRight="13dp"
+                  android:layout_marginBottom="12dp" android:textSize="10sp" android:textColor="@color/black"
+                  android:alpha="0.4"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:background="@color/bg"
+             android:layout_height="match_parent">
+    <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:orientation="vertical" android:background="@color/bg">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="30dp">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                           android:src="@drawable/info1_img1" android:layout_centerVertical="true"
+                           android:layout_marginLeft="13dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="项目基本信息"
+                          android:layout_centerVertical="true" android:textSize="13sp" android:textColor="@color/black"
+                          android:alpha="0.8" android:layout_marginLeft="40dp"/>
+            </RelativeLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:background="@color/white" android:orientation="vertical">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="项目编号" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="HX1523656232" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="项目名称" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="铜川市沈家河水库新建" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="项目类型" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="水库工程" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="建设地点" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="铜川市耀州区王家镇王家村12号" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="审批单位" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="铜川市耀州区水务局" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="批准文号" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="TCSW2018025656" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="投资概算" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="200万元" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="建设时间" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="2018-12-11~2019-2-2" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="工程简介" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="解决人民的池水问题，原来的取水很远很落后但是现在好了呀，还是党的政策好，人民幸福又安康。"
+                              android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4" android:paddingTop="5dp" android:paddingBottom="5dp"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="30dp">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                           android:src="@drawable/info1_img2" android:layout_centerVertical="true"
+                           android:layout_marginLeft="13dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="法人信息"
+                          android:layout_centerVertical="true" android:textSize="13sp" android:textColor="@color/black"
+                          android:alpha="0.8" android:layout_marginLeft="40dp"/>
+            </RelativeLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:background="@color/white" android:orientation="vertical">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="主管单位" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="铜川市自来水公司" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="联  系  人" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="我是王大锤" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="批准单位" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="铜川市水务局" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="批准文号" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="TC20155989" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="法人名称" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="耀州区水利管理处" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="法人代表" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="我是王大锤" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="法人地址" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="耀州区什么镇什么村" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="联系电话" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="18729039341" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="30dp">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                           android:src="@drawable/info1_img3" android:layout_centerVertical="true"
+                           android:layout_marginLeft="13dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="项目招投标"
+                          android:layout_centerVertical="true" android:textSize="13sp" android:textColor="@color/black"
+                          android:alpha="0.8" android:layout_marginLeft="40dp"/>
+            </RelativeLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:background="@color/white" android:orientation="vertical">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="审批单位" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="西安市水利设计研究院" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="批准文号" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="SJ2018256236" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="代理公司" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="西安风华招标代理" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="联  系  人" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="张三丰" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="30dp">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                           android:src="@drawable/info1_img4" android:layout_centerVertical="true"
+                           android:layout_marginLeft="13dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="参建单位"
+                          android:layout_centerVertical="true" android:textSize="13sp" android:textColor="@color/black"
+                          android:alpha="0.8" android:layout_marginLeft="40dp"/>
+            </RelativeLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:background="@color/white" android:orientation="vertical">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="设计单位" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="西安市水利设计研究院" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="合同编号" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="SJ2018256236" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="联  系  人" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="我是王铁锤" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="联系电话" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="18729039341" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="合同时间" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="2018-11-2~2019-2-1" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="合同金额" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="220万元" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:background="@color/white" android:orientation="vertical"
+                          android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="施工单位" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="西安市水利设计研究院" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="合同编号" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="SJ2018256236" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="联  系  人" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="我是王铁锤" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="联系电话" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="18729039341" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="合同时间" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="2018-11-2~2019-2-1" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="合同金额" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="220万元" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:background="@color/white" android:orientation="vertical"
+                          android:layout_marginTop="10dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="监理单位" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="西安市水利设计研究院" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="合同编号" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="SJ2018256236" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="联  系  人" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="我是王铁锤" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="联系电话" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="18729039341" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="合同时间" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="2018-11-2~2019-2-1" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="33dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="合同金额" android:textColor="@color/black" android:alpha="0.7"
+                              android:layout_centerVertical="true" android:layout_marginLeft="25dp"
+                              android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="220万元" android:layout_centerVertical="true"
+                              android:layout_marginLeft="110dp" android:textSize="12sp" android:textColor="@color/black"
+                              android:alpha="0.4"/>
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                          android:background="@color/black" android:alpha="0.05" android:layout_alignParentBottom="true"
+                          android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</FrameLayout>

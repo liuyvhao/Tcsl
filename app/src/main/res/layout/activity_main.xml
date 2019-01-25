@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/bg"
+              tools:context=".MainActivity">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="44dp"
+                    android:background="@color/colorPrimary">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/center_img"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                app:placeholderImage="@drawable/center_img"
+                android:layout_marginLeft="12dp"
+                app:roundAsCircle="true"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="铜川水利"
+                  android:textSize="18sp" android:textColor="@color/white" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <ImageView android:layout_width="match_parent" android:scaleType="centerCrop" android:layout_height="170dp"
+               android:src="@drawable/main_top"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="100dp" android:background="@color/white">
+        <RelativeLayout android:id="@+id/pend" android:layout_width="match_parent" android:layout_height="match_parent"
+                        android:gravity="center" android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:drawableTop="@drawable/top_menu1" android:textSize="13sp" android:textColor="@color/black"
+                      android:drawablePadding="10dp" android:text="待审批"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/approve" android:layout_width="match_parent"
+                        android:layout_height="match_parent" android:gravity="center" android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:drawableTop="@drawable/top_menu2" android:textSize="13sp" android:textColor="@color/black"
+                      android:drawablePadding="10dp" android:text="已审批"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                        android:gravity="center" android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:drawableTop="@drawable/top_menu3" android:textSize="13sp" android:textColor="@color/black"
+                      android:drawablePadding="10dp" android:text="我发起"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="75dp" android:layout_marginTop="10dp"
+                    android:background="@color/white">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:src="@drawable/wather_img" android:layout_centerVertical="true"
+                   android:layout_alignParentRight="true" android:layout_marginRight="13dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="铜川市"
+                  android:textColor="@color/orange" android:textStyle="bold" android:layout_marginLeft="13dp"
+                  android:layout_marginTop="15dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-2°C 多云"
+                  android:textColor="@color/black" android:alpha="0.7" android:layout_marginTop="15dp"
+                  android:layout_marginLeft="80dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2019-01-08 星期二"
+                  android:textSize="15sp" android:textColor="@color/black" android:alpha="0.7"
+                  android:layout_marginLeft="13dp" android:layout_alignParentBottom="true"
+                  android:layout_marginBottom="15dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-6°~5°C"
+                  android:textSize="11sp" android:textColor="@color/black" android:alpha="0.7"
+                  android:layout_alignParentRight="true" android:layout_marginTop="20dp"
+                  android:layout_marginRight="70dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="西北风2级"
+                  android:textSize="11sp" android:textColor="@color/black" android:alpha="0.7"
+                  android:layout_alignParentRight="true" android:layout_alignParentBottom="true"
+                  android:layout_marginBottom="20dp"
+                  android:layout_marginRight="70dp"/>
+    </RelativeLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:background="@color/white" android:layout_marginTop="10dp">
+        <RelativeLayout android:id="@+id/itemInfo" android:layout_weight="1" android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="项目信息"
+                      android:drawableLeft="@drawable/bottom_menu1" android:gravity="center_vertical"
+                      android:drawablePadding="22dp"/>
+        </RelativeLayout>
+        <View android:layout_width="0.5dp" android:layout_height="match_parent" android:layout_marginTop="15dp"
+              android:layout_marginBottom="15dp" android:background="@color/black" android:alpha="0.05"/>
+        <RelativeLayout android:layout_weight="1" android:layout_width="match_parent" android:layout_height="80dp"
+                        android:gravity="center" android:id="@+id/mapSearch">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="地图查找"
+                      android:drawableLeft="@drawable/bottom_menu2" android:gravity="center_vertical"
+                      android:drawablePadding="22dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:background="@color/white">
+        <RelativeLayout android:layout_weight="1" android:layout_width="match_parent" android:layout_height="80dp"
+                        android:gravity="center" android:id="@+id/statistic">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="项目统计"
+                      android:drawableLeft="@drawable/bottom_menu3" android:gravity="center_vertical"
+                      android:drawablePadding="22dp"/>
+        </RelativeLayout>
+        <View android:layout_width="0.5dp" android:layout_height="match_parent" android:layout_marginTop="15dp"
+              android:layout_marginBottom="15dp" android:background="@color/black" android:alpha="0.05"/>
+        <RelativeLayout android:layout_weight="1" android:layout_width="match_parent" android:layout_height="80dp"
+                        android:gravity="center" android:id="@+id/capital">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="资金统计"
+                      android:drawableLeft="@drawable/bottom_menu4" android:gravity="center_vertical"
+                      android:drawablePadding="22dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
